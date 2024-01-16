@@ -17,7 +17,7 @@
 * Train the NN with a split data set with few different layer setups to find a good NN setup (2 hidden layers with [101,21] nodes)
 * Retrain the NN with the entire data set for the final model, then test and submit with probabilities of exiting.
 * **Final Evaluation (area under roc curve) = 0.85983**
-
+---
 ## [S3 E26](https://github.com/andrewbremner3/PlayGroundSeries/blob/main/predict-cirrhosis-s3e26-pytorch-flexible-model.ipynb)
 
 [Kaggle Competition Link](https://www.kaggle.com/competitions/playground-series-s3e26/overview)
