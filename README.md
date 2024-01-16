@@ -7,7 +7,7 @@
 
 **Goal: To predict whether a customer continues with their account or closes it (e.g., churns), probablitity of exiting.**
 
-### First: use Sklearn models for rcatagorical training and testing
+### First: use Sklearn models for catagorical training and testing
 * Exploritory data analysis (EDA) to check on balance of the data set and to deal with catagorical fields.
 * Test sklearn models on split trainign data set for training time and accuracy (roc_auc_score used)
 * Retrain with the model on the entire data set with the best accuracy score for final model, then test and sbmit with probabilities of exiting.
