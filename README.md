@@ -1,6 +1,24 @@
 # PlayGroundSeries
 ## Kaggle playground prediction series notebooks
 ---
+## [S4 E02: Multi-Class Prediction of Obesity Risk](https://github.com/andrewbremner3/PlayGroundSeries/blob/main/weightrisk-s4e2-pytorch.ipynb)
+
+[Kaggle Competition Link](https://www.kaggle.com/competitions/playground-series-s4e2/overview)
+
+**Goal: To use various factors to predict obesity risk in individuals, which is related to cardiovascular disease.**
+
+This is a multi catagorical prediction with 7 options of strings as outputs.
+### EDA
+* Check on balance of the data set and deal with catagorical fields for dummy variables.
+* Add a BMI field as well (has the highest correlation to the target)
+### First: use Sklearn models for multi-catagorical training and testing
+* Test a few models
+* **Final Evaluation (area under roc curve) = 0.88159**
+### Second: use a Neural Network build with Pytorch
+* 
+* **Final Evaluation (area under roc curve) = 0.85983**
+
+---
 ## [S4 E01: Binary Classification with a Bank Churn Dataset](https://github.com/andrewbremner3/PlayGroundSeries/blob/main/bankchurn-s4e1.ipynb)
 
 [Kaggle Competition Link](https://www.kaggle.com/competitions/playground-series-s4e1/overview)
