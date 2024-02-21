@@ -10,13 +10,15 @@
 This is a multi catagorical prediction with 7 options of strings as outputs.
 ### EDA
 * Check on balance of the data set and deal with catagorical fields for dummy variables.
-* Add a BMI field as well (has the highest correlation to the target)
+* Add a BMI field as well (has the highest correlation to the target) - 0.961441 correlation coefficient
 ### First: use Sklearn models for multi-catagorical training and testing
-* Test a few models
-* **Final Evaluation (area under roc curve) = 0.88159**
+* RandomForestClassifier, GradientBoostingClassifier, HistGradientBoostingClassifier and XGBClassifier tested and XGBClassifier has the best results.
+* **Final accuracy Evaluation of the XGBClassifier - 0.90823**
 ### Second: use a Neural Network build with Pytorch
-* 
-* **Final Evaluation (area under roc curve) = 0.85983**
+* Various forms of the NN with a few types of data input.
+* Use all the data as numerical and categorical as well as convert the categories to dummy variables.
+* Test NN with many layer options and use best [128,64] (2 layers of 128 then 64 nodes)
+* * **Final accuracy Evaluation of the NN - 0.85043**
 
 ---
 ## [S4 E01: Binary Classification with a Bank Churn Dataset](https://github.com/andrewbremner3/PlayGroundSeries/blob/main/bankchurn-s4e1.ipynb)
@@ -27,7 +29,7 @@ This is a multi catagorical prediction with 7 options of strings as outputs.
 
 ### First: use Sklearn models for catagorical training and testing
 * Exploritory data analysis (EDA) to check on balance of the data set and to deal with catagorical fields.
-* Test sklearn models on split trainign data set for training time and accuracy (roc_auc_score used)
+* Test sklearn models on split training data set for training time and accuracy (roc_auc_score used)
 * Retrain with the model on the entire data set with the best accuracy score for final model, then test and sbmit with probabilities of exiting.
 * **Final Evaluation (area under roc curve) = 0.88159**
 ### Second: use a Neural Network build with Pytorch
