@@ -18,7 +18,7 @@ This is a multi catagorical prediction with 7 options of strings as outputs.
 * Various forms of the NN with a few types of data input.
 * Use all the data as numerical and categorical as well as convert the categories to dummy variables.
 * Test NN with many layer options and use best [1024,512] (2 layers of 1024 then 512 nodes)
-* * **Final accuracy Evaluation of the NN - 0.86343**
+* **Final accuracy Evaluation of the NN - 0.86343**
 
 ---
 ## [S4 E01: Binary Classification with a Bank Churn Dataset](https://github.com/andrewbremner3/PlayGroundSeries/blob/main/bankchurn-s4e1.ipynb)
